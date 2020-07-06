@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowUnreachableCode": true,
+    "strict": true,
+    "target": "ES6",
+    "lib": [
+      "esnext",
+      "dom",
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "module": "commonjs",
+    "inlineSourceMap": true,
+    "pretty": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@common/*": [
+        "../../common/src/*"
+      ],
+      "@server-common/*": [
+        "../../server-common/src/*"
+      ]
+    }
+  }
+}

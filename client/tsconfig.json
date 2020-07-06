@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "target": "ES6",
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "src"
+  ]
+}
